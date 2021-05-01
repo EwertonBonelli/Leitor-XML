@@ -9,7 +9,7 @@ namespace Gerenciadorxml
         {
             //Abrindo o arquivo do excel.
             var Ex = new XLWorkbook(@"C:/PlanilhaTeste.xlsx");
-            //Acessando a aba da planilha.
+            //Acessando a aba da planilha.  
             var planilha = Ex.Worksheet(1);
             //Nome da aba da planilha.
             Console.WriteLine("Aba: "+planilha);
