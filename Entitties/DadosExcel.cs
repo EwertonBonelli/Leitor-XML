@@ -5,8 +5,5 @@ using ClosedXML.Excel; //Biblioteca importada.
 
 namespace Gerenciadorxml.Entitties
 {
-    class DadosExcel
-    {
-        
-    }
+    
 }
