@@ -30,5 +30,16 @@ namespace Gerenciadorxml.Entitties.Exceptions{
                 //Repetir para a linha 2,3,4 e etc...
                 linha++;
             }
+
+-----------------------------------------------------------
+//For para percorrer todas as abas da planilha
+                for(var linha = 1; linha >= 1; linha++)
+                {
+                    var coluna = 'A';
+                    if (coluna >= 'A') { 
+                        var celula = planilha.Rows() ;
+                        coluna++;
+                    }
+                }
  
  */
